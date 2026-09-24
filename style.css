@@ -188,11 +188,6 @@ footer {
     padding: 20px;
 }
 
-/* =========================
-   ANIMASI WEBSITE
-   ========================= */
-
-/* Header muncul dari atas */
 header {
     animation: headerMuncul 1s ease-out;
 }
@@ -209,8 +204,6 @@ header {
     }
 }
 
-
-/* Foto bergerak naik turun */
 .foto {
     animation: fotoMengambang 3s ease-in-out infinite;
 }
@@ -225,23 +218,17 @@ header {
     }
 }
 
-
-/* Section sebelum terlihat */
 section {
     opacity: 0;
     transform: translateY(40px);
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-
-/* Section ketika sudah terlihat */
 section.show {
     opacity: 1;
     top: 0;
 }
 
-
-/* Animasi skill */
 .skills div {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -251,8 +238,6 @@ section.show {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Animasi portfolio */
 .project {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -262,8 +247,6 @@ section.show {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-
-/* Animasi link navbar */
 nav a {
     transition: color 0.3s ease, transform 0.3s ease;
     display: inline-block;

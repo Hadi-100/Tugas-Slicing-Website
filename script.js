@@ -12,7 +12,7 @@ navLinks.forEach(link => {
         const startPosition = window.scrollY;
         const distance = targetPosition - startPosition;
 
-        const duration = 1000; // 1000 = 1 detik
+        const duration = 1000; 
         let startTime = null;
 
         function animation(currentTime) {
@@ -42,10 +42,6 @@ navLinks.forEach(link => {
         requestAnimationFrame(animation);
     });
 });
-
-// =========================
-// ANIMASI SECTION SAAT SCROLL
-// =========================
 
 const sections = document.querySelectorAll("section");
 
